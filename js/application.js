@@ -90,9 +90,9 @@ $(function(){
   $container.infinitescroll({
     loading: {
       finished: undefined,
-      finishedMsg: "No more books.",
+      finishedMsg: "No more films :-(",
       msg: null,
-      msgText: "<em>Loading more books...",
+      msgText: "<em>Loading more films...",
       selector: null,
       speed: 'fast',
       start: undefined

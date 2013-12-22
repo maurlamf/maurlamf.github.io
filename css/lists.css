@@ -136,34 +136,7 @@ body.index:not(.tag-favorite):not(.tag-design):not(.tag-literature) li.nav-index
     font-family: proxima-nova, helvetica neue, helvetica, arial, sans-serif;
     margin: 0 0 0 14px;
     position: relative;
-}
-#posts .post .caption h2:before {
-    content: "\2014";
-    left: -14px;
-    position: absolute;
-}
-#posts .post .caption .stars {
-    background: url("//hellohappy.org/infinite-library/images/star.png");
-    background-size: 12px 12px;
-    height: 12px;
-    margin: 1em 0 0 0;
-    opacity: 0.8;
-    text-indent: -9999px;
-}
-#posts .post .caption .stars.five {
-    width: 60px;
-}
-#posts .post .caption .stars.four {
-    width: 48px;
-}
-#posts .post .caption .stars.three {
-    width: 36px;
-}
-#posts .post .caption .stars.two {
-    width: 24px;
-}
-#posts .post .caption .stars.one {
-    width: 12px;
+    font-size: 13px;    
 }
 body.index #container #posts .post {
     width: 18%}
