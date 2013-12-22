@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Mauricio Rivera</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Some interesting stuff">
+	<!-- Loading Bootstrap -->
+	<link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Loading Flat UI -->
+	<link href="/css/flat-ui.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Abril+Fatface|PT+Sans+Narrow:400,700|PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	<script type="text/javascript" src="/js/twitterFetcher_v10_min.js"></script>
+	<style>
+		body {
+		}
+	</style>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+<![endif]-->
+</head>
+
+
+<body>
+
+
+
+<div class="postspacer">
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<h1>PRISM, Privacy, and Room 641A</h1>
+			<h2>
+			<hr>
+			<p class = "text-muted">by Mauricio Rivera</p>
+
+			<p>My dad worked during so many AT&amp;T eras/permutations that its really hard to keep track. It started as the original Ma Bell AT&amp;T, was split up in a 1984 antitrust case, became Pacific Telesis, then <a href="http://en.wikipedia.org/wiki/Pacific_Bell">Pac Bell</a> which was aquired by SBC (formerly Southwestern Bell). SBC eventually acquired the original divested AT&amp;T to become AT&amp;T once again. One of his many offices was 611 Folsom Street in San Francisco, which housed the now infamous <a href="http://en.wikipedia.org/wiki/Room_641A">Room 641A</a>.</p>
+
+<p>The black box room was essentially the government’s wiretap not into a single company or application, but into all the internet traffic that passed through that building. According to J. Scott Marcus, an expert in the eventual case brought against AT&amp;T, room 614A gave the government “the capability to enable surveillance and analysis of internet content on a massive scale, including both overseas and purely domestic traffic.”</p>
+
+<p>No one was allowed in the room except for government/NSA-types or AT&amp;T employees with security clearance. When you opened the door, a camera would stare you right in the face to make sure you weren’t an unauthorized user.</p>
+
+<p>This is from <a href="http://www.wired.com/science/discoveries/news/2006/05/70908">Wired’s</a> account from the whistleblower, Mark Klein, an AT&amp;T tech of 22 years:</p>
+
+<blockquote>
+<p>In San Francisco the “secret room” is Room 641A at 611 Folsom Street, the site of a large SBC phone building, three floors of which are occupied by AT&amp;T. High-speed fiber-optic circuits come in on the 8th floor and run down to the 7th floor where they connect to routers for AT&amp;T’s WorldNet service, part of the latter’s vital “Common Backbone.” In order to snoop on these circuits, a special cabinet was installed and cabled to the “secret room” on the 6th floor to monitor the information going through the circuits. (The location code of the cabinet is 070177.04, which denotes the 7th floor, aisle 177 and bay 04.) The “secret room” itself is roughly 24-by-48 feet, containing perhaps a dozen cabinets including such equipment as Sun servers and two Juniper routers, plus an industrial-size air conditioner.</p>
+</blockquote>
+
+<p>He later goes on to finish:</p>
+
+<blockquote>
+<p>This is the infrastructure for an Orwellian police state. It must be shut down!</p>
+</blockquote>
+
+<p>He became the Electronic Frontier Foundation’s key witness in a case that was eventually denied to be heard by the U.S. Supreme Court. So the concepts behind PRISM aren’t really new. From a more technical perspective, having direct access to an application or company’s servers might be more useful and convenient, but the ability for the government to sniff your internet traffic is probably as old as the internet itself.</p>
+
+<p>What is revelatory with the new PRISM revelations is that it happened right as society was beginning to trust these large scale systems more and more. Google, Twitter, and Facebook have become ubiquitous parts of modern global life. <a href="http://bits.blogs.nytimes.com/2008/11/06/zuckerbergs-law-of-information-sharing/">Zuckerberg’s Law</a> of information sharing says that people will share twice as much every successive year. If that is true, its because of a societal shift towards openness and because the benefits of more sharing enter a virtuous cycle. Perhaps this <em>is</em> a secular societal movement, but with the government’s increasing awareness of our private lives, does that potential virtuous cycle never happen?</p>
+			<p class="text-muted" align="right">—now</p>
+			</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+    </div>
+    <!-- Load JS here for greater good =============================-->
+    <script src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-select.js"></script>
+    <script src="/js/bootstrap-switch.js"></script>
+    <script src="/js/flatui-checkbox.js"></script>
+    <script src="/js/flatui-radio.js"></script>
+    <script src="/js/jquery.tagsinput.js"></script>
+    <script src="/js/jquery.placeholder.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+
+var $window = $(window); //You forgot this line in the above example
+
+$('section[data-type="background"]').each(function(){
+var $bgobj = $(this); // assigning the object
+$(window).scroll(function() {
+    var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+// Put together our final background position
+var coords = '50% '+ yPos + 'px';
+// Move the background
+$bgobj.css({ backgroundPosition: coords });
+});
+});
+});
+    </script>
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $('a[href=#top]').click(function(){
+                $('html, body').animate({scrollTop:0}, 'slow');
+                event.preventDefault();
+            });
+
+        });
+    </script>
+</body>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="span3">
+                <a href="#top" class="topbutton">BACK TO TOP</a>
+                <p>Created by <a href="http://www.twitter.com/maurrivera">@maurrivera</a> w/ <a href="http://jekyllrb.com/">Jekyll</a>. Hosted by <a href="http://pages.github.com/">github pages</a>. Made with <i class="fa fa-heart-o"></i> in San Francisco.</p>
+            </div>
+        </div>
+    </div>
+</div> 
+
+</html>
+
+
+
+
+

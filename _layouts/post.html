@@ -1,0 +1,25 @@
+{% include header.html %}
+<div class="postspacer">
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-2">
+			<h1>{{ page.title }}</h1>
+			<h2>{{ page.subtitle }}
+			<hr>
+			<p class = "text-muted">by {{ page.author }}</p>
+
+			{{ content }}
+			<p class="text-muted" align="right">—{{ 'now' | date: "%b %x" }}</p>
+			</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+{% include footer.html %}
+
+
