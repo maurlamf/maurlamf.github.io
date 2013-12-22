@@ -134,7 +134,6 @@ body.index:not(.tag-favorite):not(.tag-design):not(.tag-literature) li.nav-index
     color: #575757;
     display: inline;
     font-family: proxima-nova, helvetica neue, helvetica, arial, sans-serif;
-    margin: 0 0 0 14px;
     position: relative;
     font-size: 13px;    
 }
