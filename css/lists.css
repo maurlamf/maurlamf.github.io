@@ -1,7 +1,14 @@
+.post a {
+    border-bottom: none;
+}
+.post a {
+    border-bottom: none;    
+}
 .movietitle {
     font-family: "PT Sans";
     font-weight: 700;
-    font-size: 38px;
+    font-size: 50px;
+    letter-spacing: -1px;
 }
 .movietitle:hover {
     text-decoration: none;
