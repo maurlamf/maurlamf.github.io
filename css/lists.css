@@ -141,7 +141,12 @@ body.index #container #posts .post {
     width: 18%}
 body.index #container #posts .post img {
     max-width: 100%;
-    min-width: 100%}
+    min-width: 100%
+    text-decoration: none;
+}
+img:hover {
+    text-decoration: none;
+}
 body.index #container #posts .post .caption {
     margin: 0;
     padding: 10px 20px 10px 10px;
