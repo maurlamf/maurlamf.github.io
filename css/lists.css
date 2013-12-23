@@ -218,6 +218,8 @@ body.post-page #container #posts .post .caption h3 {
     text-align: center;
     width: 250px;
     z-index: 5000;
+    font-family: "PT Sans";
+    font-weight: 700;
 }
 #infscr-loading img {
     display: none;
