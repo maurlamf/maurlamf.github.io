@@ -151,6 +151,7 @@ body.index:not(.tag-favorite):not(.tag-design):not(.tag-literature) li.nav-index
     font-family: proxima-nova, helvetica neue, helvetica, arial, sans-serif;
     position: relative;
     font-size: 13px;    
+    font-weight: 300;
 }
 body.index #container #posts .post {
     width: 18%}
