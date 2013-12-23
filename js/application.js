@@ -66,9 +66,9 @@ String.prototype.repeat = function(num) {
     $("[data-toggle='switch']").wrap('<div class="switch" />').parent().bootstrapSwitch();
     
   });
-*/
-})(jQuery);
 
+})(jQuery);
+*/
 $(function(){
   var columns = 5,
       setColumns = function() { columns = $(window).width() > 840 ? 5 : $(window).width() > 640 ? 3 : 2; };
