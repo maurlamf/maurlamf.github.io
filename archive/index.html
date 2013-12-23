@@ -3,21 +3,30 @@ layout: default
 title: Archives
 author: Mauricio Rivera
 ---	
+<div class = "row">
+  <div class="col-lg-5 col-centered">
+    <hr>
+    <div class = "movietitle col-centered">Mauricio's Archive</div>
+    <hr>
+    <h2>You can take a look at my <a href = "http://maurrivera.com/blog/"> web log</a>, <a href = "http://film.maurrivera.com">films list</a>, <a href = "http://maurrivera.com/archives/">the archive</a>, or <a href = "http://maurrivera.com/about/">my about page</a></h2>
+    <hr>
 
-<h1>Archives</h1>
-<ul>
-  {% for post in site.posts %}
+    <h1>Archives</h1>
+    <ul>
+      {% for post in site.posts %}
 
-    {% unless post.next %}
+      {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
-    {% else %}
+      {% else %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
-        <h3>{{ post.date | date: '%Y' }}</h3>
+      <h2>{{ post.date | date: '%Y' }}</h2>
       {% endif %}
-    {% endunless %}
+      {% endunless %}
 
-    <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+      <li>{{ post.date | date:"%b" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul> 
+  </div>
+</div>

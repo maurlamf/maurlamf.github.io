@@ -1,4 +1,13 @@
-
+h2 > a {
+  color: #0000FF;
+}
+.movietitle {
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -1px;
+    text-align: center;
+}
 li {
   font: 400 14px "pt serif"
 }
@@ -142,7 +151,7 @@ hr {
   margin-left:10px;
 }
 .postspacer {
-  min-height: 75px;
+  min-height: 28px;
 }
 .spacer {
   min-height: 50px;
