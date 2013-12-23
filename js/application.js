@@ -90,7 +90,7 @@ $(function(){
   $container.infinitescroll({
     loading: {
       finished: undefined,
-      finishedMsg: "No more films :-(",
+      finishedMsg: "No more films ☹",
       msg: null,
       msgText: "<em>Loading more films...",
       selector: null,
@@ -105,7 +105,7 @@ $(function(){
     debug: false,
     errorCallback: function() {
       // fade out the error message after 2 seconds
-      $('#infscr-loading').animate({opacity: .8},2000).fadeOut('normal');
+      $('#infscr-loading').animate({opacity: .8},4000).fadeOut('normal');
     }
   },
 

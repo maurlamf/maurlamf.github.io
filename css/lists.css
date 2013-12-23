@@ -225,11 +225,11 @@ body.post-page #container #posts .post .caption h3 {
     display: none;
 }
 .masonry, .masonry .masonry-brick {
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -ms-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
 }
 .masonry {
     -webkit-transition-property: height, width;
