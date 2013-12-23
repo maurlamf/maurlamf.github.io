@@ -440,7 +440,7 @@ a {
 a:hover,
 a:focus {
   color: #222;
-  border-bottom: 1px solid #222;
+  border-bottom: none;
   text-decoration: none;
 }
 .img-rounded {
@@ -3641,12 +3641,14 @@ body.vjs-full-window {
   background: #ebedee;
   display: none;
   height: 16px;
+  font-size: 30px;
   left: 50%;
   margin: -8px 0 0 -8px;
   position: absolute;
   top: 50%;
   width: 16px;
   border-radius: 10px;
+  font-family: "PT Sans"
   -webkit-animation: sharp 2s ease infinite;
   -moz-animation: sharp 2s ease infinite;
   -o-animation: sharp 2s ease infinite;

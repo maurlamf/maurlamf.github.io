@@ -94,7 +94,7 @@ $(function(){
       msg: null,
       msgText: "<em>Loading more films...",
       selector: null,
-      speed: 'fast',
+      speed: 'slow',
       start: undefined
     },
     navSelector: '#pagination',    // selector for the paged navigation

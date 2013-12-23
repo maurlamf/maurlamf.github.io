@@ -1,4 +1,4 @@
-// Some general UI pack related JS
+/*// Some general UI pack related JS
 // Extend JS String with repeat method
 String.prototype.repeat = function(num) {
     return new Array(num + 1).join(this);
@@ -66,9 +66,9 @@ String.prototype.repeat = function(num) {
     $("[data-toggle='switch']").wrap('<div class="switch" />').parent().bootstrapSwitch();
     
   });
-  
-})(jQuery);
 
+})(jQuery);
+*/
 $(function(){
   var columns = 5,
       setColumns = function() { columns = $(window).width() > 840 ? 5 : $(window).width() > 640 ? 3 : 2; };
@@ -90,11 +90,11 @@ $(function(){
   $container.infinitescroll({
     loading: {
       finished: undefined,
-      finishedMsg: "No more books.",
+      finishedMsg: "No more films ☹",
       msg: null,
-      msgText: "<em>Loading more books...",
+      msgText: "<em>Loading more films...",
       selector: null,
-      speed: 'fast',
+      speed: 'slow',
       start: undefined
     },
     navSelector: '#pagination',    // selector for the paged navigation
@@ -105,7 +105,7 @@ $(function(){
     debug: false,
     errorCallback: function() {
       // fade out the error message after 2 seconds
-      $('#infscr-loading').animate({opacity: .8},2000).fadeOut('normal');
+      $('#infscr-loading').animate({opacity: .8},4000).fadeOut('normal');
     }
   },
 
