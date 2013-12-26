@@ -308,7 +308,7 @@ li {
   border-bottom: 1px solid #222;
 }
 hr {
-  background: #333;
+  background: #ccc;
   border: 0;
   height: 2px;
   margin: 12px auto 8px;
@@ -796,7 +796,7 @@ h6,
   line-height: 1.1;
   color: inherit;
   letter-spacing: 0px;
-  color: ccc  ;
+  color: #BDBCE0;
 }
 h1 small,
 h3 small,
