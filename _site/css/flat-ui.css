@@ -15,9 +15,8 @@ li {
 .effect1
 {
   position: relative;
-
   background-color: #FFFFF2;
-  padding: 122px;
+  padding: 114px;
 }
 .effect1:after
 {
@@ -56,7 +55,7 @@ hr {
   width: 60px;
 }
 .news{
-  margin: 300px 2px;
+  margin: 90px 0px;
 }
 .col-centered {
   float: none;
