@@ -695,7 +695,7 @@ body {
   letter-spacing: 1px;
   line-height: 1.72222;
   color: #2C3539;
-  background-color: #ffffff;
+  background-color: #222;
   font-weight: 300;
 }
 a {
@@ -4277,6 +4277,6 @@ footer p {
 .mal {
   margin-left: 20px;
 }
-
+    
 }
 }
