@@ -105,7 +105,7 @@ $(function(){
     debug: false,
     errorCallback: function() {
       // fade out the error message after 2 seconds
-      $('#infscr-loading').animate({opacity: .8},4000).fadeOut('normal');
+      $('#infscr-loading').animate({opacity: .8},2000).fadeOut('normal');
     }
   },
 
@@ -120,7 +120,7 @@ $(function(){
     });
 
     setTimeout(function(){
-      $(newElements).fadeIn('slow');
+      $(newElements).fadeIn('fast');
     },500);
   });
 });
