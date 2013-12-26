@@ -147,7 +147,7 @@ body.index:not(.tag-favorite):not(.tag-design):not(.tag-literature) li.nav-index
     margin: 0 0 1em 0;
 }
 #posts .post .caption h2 {
-    color: #575757;
+    color: #888;
     display: inline;
     font-family: proxima-nova, helvetica neue, helvetica, arial, sans-serif;
     position: relative;
@@ -707,7 +707,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #222;
+  color: #eee;
   border-bottom: none;
   text-decoration: none;
 }
@@ -796,7 +796,7 @@ h6,
   line-height: 1.1;
   color: inherit;
   letter-spacing: 0px;
-  color: ccc;
+  color: ccc  ;
 }
 h1 small,
 h3 small,
