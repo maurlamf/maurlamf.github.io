@@ -9,6 +9,7 @@
     font-weight: 700;
     font-size: 50px;
     letter-spacing: -1px;
+    color: #ccc;
 }
 .movietitle:hover {
     text-decoration: none;
@@ -693,7 +694,7 @@ body {
   letter-spacing: 1px;
   line-height: 1.72222;
   color: #2C3539;
-  background-color: #ffffff;
+  background-color: #222;
   font-weight: 300;
 }
 a {
