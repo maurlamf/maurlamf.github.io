@@ -723,7 +723,7 @@ a:focus {
 p {
   font-size: 16px;
   line-height: 1.72222;
-  color: #eee;
+  color: #ccc;
   font: 400 14px "pt serif";
   text-align: justify;
   letter-spacing: 0px;
@@ -796,7 +796,7 @@ h6,
   line-height: 1.1;
   color: inherit;
   letter-spacing: 0px;
-  color: #BDBCE0;
+  color: #eee;
 }
 h1 small,
 h3 small,
