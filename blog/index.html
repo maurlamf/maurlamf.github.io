@@ -4,13 +4,19 @@ title: My Blog
 ---
 
 <!-- This loops through the paginated posts -->
+ <header>
+    <hr>
+    <div class = "movietitle">Mauricio's Film List</h1></div>
+      <hr>
+
+  <div class="col-centered">
+             <h2>You can read my <a href="http://maurrivera.com/blog">writing</a>, browse my <a href="http://film.maurrivera.com">films list</a>, browse my <a href="http://books.maurrivera.com">books list</a> or send me an <a href= “mailto:maurrivera@gmail.com”>email</a>. I can also be found on <a href="http://twitter.com/maurrivera">Twitter</a>, <a href="http://github.com/maurlamf">Github</a>, and <a href="http://linkedin.com/in/maurrivera">LinkedIn</a>. You can read about my ratings system <a href = "http://maurrivera.com/ratings">here</a>.</h2>
+             <hr>
+  </div>
+  </header>
 <div class = "row">
   <div class="col-lg-5 col-centered">
-    <hr>
-    <div class = "movietitle col-centered">Mauricio's Web Log</div>
-      <hr>
-          <h2>You can read my <a href="http://maurrivera.com/blog">writing</a>, browse my <a href="http://film.maurrivera.com">films list</a>, browse my <a href="http://getpocket.com/">books list</a> or send me an <a href="http://getpocket.com/">email</a>. I can also be found on <a href="http://getpocket.com/">Twitter</a>, <a href="http://getpocket.com/">Github</a>, and <a href="http://getpocket.com/">LinkedIn</a>.</h2>
-      <hr>
+
       <div class="row">
           {% for post in paginator.posts %}
           <h1>{{ post.title }}</h1>

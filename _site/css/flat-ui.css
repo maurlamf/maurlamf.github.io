@@ -1,3 +1,8 @@
+header {
+    margin: 40px auto 0;
+    max-width: 960px;
+    text-align: center;
+}
 h2 > a {
   color: #0000FF;
 }
@@ -578,6 +583,8 @@ h2,
   font-size: 16px;
   letter-spacing: 0;
   text-align: center;
+  line-height: 27px;
+  margin: 0;
 }
 h3,
 .h3 {
